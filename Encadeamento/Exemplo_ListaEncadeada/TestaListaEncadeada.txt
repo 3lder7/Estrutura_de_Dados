@@ -1,0 +1,42 @@
+package ListaProfessor;
+
+
+public class TestaListaEncadeada {
+
+	public static void main(String[] args) {
+		TestaListaEncadeada testaListaEncadeada = new TestaListaEncadeada(); 
+		ListaEncadeada listaEncadeada = new ListaEncadeada();
+		
+		testaListaEncadeada.addProfessor(listaEncadeada);
+		
+		System.out.println("Todos os Professores foram adicionados com sucesso!!");
+		System.out.println("Você tem os seguintes Professores adicionados: ");
+		while(listaEncadeada.temProximo()) {
+			System.out.println(listaEncadeada.getPosicaoAtual().getValor().getNome());
+		}
+		System.out.println("Agora vamos remover!!");
+		
+		testaListaEncadeada.removerProfessor(listaEncadeada);
+		System.out.println("Contatos removidos");
+		System.out.println("A lista ficou assim: ");
+		while(listaEncadeada.temProximo()) {
+			System.out.println(listaEncadeada.getPosicaoAtual().getValor().getNome());
+		}
+	}
+	
+	public void addProfessor(ListaEncadeada listaEncadeada ) {
+		Professor professor1 = new Professor(10, "Angela");
+		Professor professor2 = new Professor(11, "Chris");
+		Professor professor3 = new Professor(12, "Sema");
+		Professor professor4 = new Professor(13, "Marla");
+		
+		listaEncadeada.adicionar(professor1); 
+	    listaEncadeada.adicionar(professor2); 
+	    listaEncadeada.adicionar(professor3); 
+	    listaEncadeada.adicionar(professor4); 
+	}
+	
+	public void removerProfessor(ListaEncadeada listaEncadeada) {
+		listaEncadeada.remover();
+	}
+}
