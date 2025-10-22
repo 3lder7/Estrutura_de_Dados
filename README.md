@@ -1,2 +1,2 @@
 # Estrutura_de_Dados
-Repositório com atividades e questões voltadas para a matéria de estrutura de dados da minha faculdade. ( Java )
+Repositório criado com o intuito de demonstrar os principais fudamentos de estrutura de dados na prática. (Java)
