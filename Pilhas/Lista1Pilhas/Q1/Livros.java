@@ -13,7 +13,7 @@ public class Livros {
         Livros gerenciador = new Livros();
 
         String menu = ""
-            + "=== GERENCIADOR DE LIVROS PARA LER NAS FÉRIAS ===\n"
+            + "=== GERENCIADOR DE LIVROS ===\n"
             + "1) Inserir na Pilha (1)\n"
             + "2) Consultar na Pilha (2)\n"
             + "3) Remover na Pilha (3)\n"
