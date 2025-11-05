@@ -1,7 +1,7 @@
 package Pilhas.Lista1Pilhas.Q3;
 import java.util.Scanner;
 public class Tarefas {
-    Scanner kb = new Scanner(System.in);
+    public Scanner kb = new Scanner(System.in);
     private PilhaEstatica<String> pilhaTarefas;
 
     public Tarefas() {
