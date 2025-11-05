@@ -57,9 +57,6 @@ public class Tarefas {
     }
 }
 
-
-
-
 class PilhaVaziaException extends Exception {
     public PilhaVaziaException() {
         super("A pilha está vazia");
