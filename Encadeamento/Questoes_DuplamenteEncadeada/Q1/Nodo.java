@@ -1,4 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.Duplamente_Encadeada_04.Q1;
+package Encadeamento.Questoes_DuplamenteEncadeada.Q1;
 
  public class Nodo {
     public Nodo anterior = null;

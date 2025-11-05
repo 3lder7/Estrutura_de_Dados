@@ -1,5 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.Exemplo_ListaDuplamenteEncadeada;
-
+package Encadeamento.Exemplo_ListaDuplamenteEncadeada;
 public class Nodo {
     public Nodo anterior = null;
     public String dado;

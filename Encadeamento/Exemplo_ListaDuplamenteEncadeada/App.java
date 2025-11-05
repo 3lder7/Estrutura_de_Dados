@@ -1,5 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.Exemplo_ListaDuplamenteEncadeada;
-
+package Encadeamento.Exemplo_ListaDuplamenteEncadeada;
 import java.util.Scanner;
 
 public class App {

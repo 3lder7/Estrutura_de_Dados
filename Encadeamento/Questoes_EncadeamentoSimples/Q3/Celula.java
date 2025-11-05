@@ -1,4 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.ListaEncadeada_Angela_3.Q3;
+package Encadeamento.Questoes_EncadeamentoSimples.Q3;
 
 public class Celula {
 	

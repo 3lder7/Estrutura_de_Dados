@@ -1,4 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.Duplamente_Encadeada_04.Q3;
+package Encadeamento.Questoes_DuplamenteEncadeada.Q3;
 
 public class Aluno {
     private String nome;

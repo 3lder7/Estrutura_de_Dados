@@ -1,4 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.Duplamente_Encadeada_04.Q2;
+package Encadeamento.Questoes_DuplamenteEncadeada.Q2;
 
 import java.util.Scanner;
 

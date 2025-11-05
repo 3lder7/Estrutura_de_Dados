@@ -1,5 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.Exemplo_ListaDuplamenteEncadeada;
-
+package Encadeamento.Exemplo_ListaDuplamenteEncadeada;
 public class ListaDuplamenteEncadeada {
     private Nodo inicio;
     private Nodo fim;

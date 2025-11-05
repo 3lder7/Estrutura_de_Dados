@@ -1,4 +1,4 @@
-package Estrutura_de_Dados.Encadeamento.ListaEncadeada_Angela_3.Q2;
+package Encadeamento.Questoes_EncadeamentoSimples.Q2;
 
 
 public class ListaEncadeada {
